@@ -1,16 +1,17 @@
 {
-  "name": "kb-backend-week-2-startkit-main",
+  "name": "week3",
   "version": "1.0.0",
-  "description": "Это стартовый архив для второй проектной работы по бэкенду.",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
-  "author": "lidels_pastrin",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2"
   },
   "devDependencies": {
