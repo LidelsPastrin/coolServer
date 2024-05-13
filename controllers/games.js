@@ -30,7 +30,7 @@ const addGameController = async (req, res) => {
       return
   }
   // Записываем обновлённый список игр в файл
-  await writeData("./data/games.json", req.games);
+  await writeData("./data/games.json", req.games);ы
   // В качестве ответа отправляем объект с двумя полями
   res.send({
       games: req.games, // Обновлённый список со всеми играми
@@ -38,7 +38,7 @@ const addGameController = async (req, res) => {
   });
 }
 
-const sendAllGames = async (req, res) => {
+const sendAllGames = (req, res) => {
     res.send(req.games);
   };
   
